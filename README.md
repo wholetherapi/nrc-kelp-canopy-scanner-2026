@@ -1,17 +1,17 @@
-# Saltmarsh Sampler Mk-I
+# Kelp Canopy Scanner
 
-Controller firmware and sample-log utilities for the Mk-I intertidal pore-water
-sampler.
+## Status
 
-## Release status
+**NOT RELEASED - code coming soon.**
 
-**Released - v2.0.1 (2025-10-08).**  The sampler controller and the log parser
-are feature-complete and have been used in two intertidal campaigns.  The
-`data/site_registry.yaml` file lists the plots used by the released build.
+This repository is a placeholder scaffold for the Kelp Canopy Scanner.  It was
+created so that the campaign board could reserve the repository name while the
+instrument is being built.  No analysis code has been published yet.
 
-## Layout
+## Planned deliverables
 
-- `src/sampler_control.py` - syringe rack sequencing and sleep scheduling
-- `src/sample_log.py` - binary log reader
-- `data/site_registry.yaml` - plot registry
-- `experiments/intertidal_survey.md` - field campaign notes
+- `src/` - mosaic stitching and transect statistics (planned, Q3 2026)
+- `data/` - surveyed transect corpus (planned, after the aerial campaign)
+- `experiments/` - mosaic benchmarks (planned)
+
+Only `.gitignore` and an empty `src/` placeholder exist today.
